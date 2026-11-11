@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Rahul Jaikrishna</title>
+  <meta name="description" content="Experience, research and projects in formal verification, AI/ML and systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Rahul Jaikrishna</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="writing.html">Writing</a>
+        <button id="theme" type="button"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Work</h1>
+    <p class="lede">Research, internships and projects, mostly where formal methods meet AI and systems.</p>
+
+    <h2 class="label">Experience</h2>
+    <div class="role">
+      <span class="logo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128" alt="" onerror="this.remove()"><b>UC</b></span>
+      <div>
+        <h3>UC Berkeley</h3>
+        <div class="sub">Student Researcher · May 2025 — Now</div>
+        <p>Working with Prof. Christopher Fletcher and Dr. Sushant Dinesh on formal verification of hardware to mitigate speculative execution vulnerabilities. Building formal models of microarchitectural behavior to prove security guarantees against side-channel and transient execution attacks, and applying them to the open-source BOOM processor with Chisel and Chipyard.</p>
+      </div>
+    </div>
+    <div class="role">
+      <span class="logo" aria-hidden="true"><img src="logos/college-app.png" alt="" onerror="this.remove()"><b>CA</b></span>
+      <div>
+        <h3>The College App</h3>
+        <div class="sub">Software Engineering Intern · Sep 2024 — Feb 2025</div>
+        <p>Built and deployed a production AI college counseling assistant used by real students. Architected a RAG pipeline combining vector search with LLM reasoning, and designed the embedding, retrieval and prompt workflows to improve factual accuracy and reduce hallucinations.</p>
+      </div>
+    </div>
+    <div class="role">
+      <span class="logo" aria-hidden="true"><img src="logos/encode-ai.png" alt="" onerror="this.remove()"><b>E</b></span>
+      <div>
+        <h3>Encode.AI</h3>
+        <div class="sub">Lead, AI/ML</div>
+      </div>
+    </div>
+    <div class="role">
+      <span class="logo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=intel.com&sz=128" alt="" onerror="this.remove()"><b>in</b></span>
+      <div>
+        <h3>Intel</h3>
+        <div class="sub">AI4Y Trainee · May 2019 — Sep 2020</div>
+        <p>Selected among the top 100 students nationwide for a multi-month AI training initiative. Built Cyber Detective, an NLP system that detects online hate speech, end to end from preprocessing to training and classification.</p>
+      </div>
+    </div>
+
+    <h2 class="label">Research</h2>
+    <div class="item">
+      <div class="meta">IEEE TPS 2026<br>submitted</div>
+      <div>
+        <h3>Cross Paradigm Defense for Vision-Language Models</h3>
+        <p>Improves resilience against adaptive white-box attacks using cryptographically keyed selection of vision encoders, with multi-stage embedding drift and semantic consensus detection.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta">SPACE 2026<br>submitted</div>
+      <div>
+        <h3>Counterexample Guided Defense Synthesis</h3>
+        <p>Achieves certified detection of adversarial inputs by synthesizing formally verified drift-based detectors, using counterexample-guided optimization and neural network verification.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta">SANER 2027<br>planned</div>
+      <div>
+        <h3>Probe Guided Active Intent Elicitation for Software Engineering</h3>
+        <p>Uses LLM activation probes to measure prompt uncertainty and select the smallest set of clarifying questions that maximizes ambiguity reduction.</p>
+      </div>
+    </div>
+
+    <h2 class="label">Projects</h2>
+    <div class="item">
+      <div class="meta">Networking</div>
+      <div>
+        <h3><a href="https://github.com/Tensorflow-Ranger/dnsfox">dnsfox</a>, a self-hosted DNS resolver</h3>
+        <p>A personal DNS resolver with a high-performance blocklist engine and ML-based filtering, running in production at a 0.11% false-positive rate.</p>
+        <div class="tags"><span>Python</span><span>DNS</span><span>AWS</span><span>DoH</span></div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta">NLP</div>
+      <div>
+        <h3>Cyber Detective</h3>
+        <p>An NLP system to detect and combat online hate speech, with the full pipeline from text preprocessing to classification of harmful content.</p>
+        <div class="tags"><span>NLP</span><span>Python</span></div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="meta">Workshop</div>
+      <div>
+        <h3><a href="https://github.com/Tensorflow-Ranger/Workshop-on-fine-tuning-BERT">Workshop on fine-tuning BERT</a></h3>
+        <p>Hands-on material for a workshop on transformers and fine-tuning, co-presented to around 300 attendees.</p>
+        <div class="tags"><span>Transformers</span><span>HuggingFace</span><span>LoRA</span></div>
+      </div>
+    </div>
+    <p><a href="https://github.com/Tensorflow-Ranger?tab=repositories">All repositories →</a></p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Rahul Jaikrishna</span>
+      <span><a href="https://github.com/Tensorflow-Ranger">GitHub</a> · <a href="mailto:rahul.jaikrishna@gmail.com">Email</a></span>
+    </div>
+  </footer>
+</body>
+</html>

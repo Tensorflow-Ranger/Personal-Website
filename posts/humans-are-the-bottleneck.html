@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Humans Are the Bottleneck — Rahul Jaikrishna</title>
+  <meta name="description" content="Code review got us here. It won't get us to what comes next.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="../index.html">Rahul Jaikrishna</a>
+      <nav>
+        <a href="../index.html">About</a>
+        <a href="../work.html">Work</a>
+        <a href="../writing.html" aria-current="page">Writing</a>
+        <button id="theme" type="button"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article>
+      <h1>Humans Are the Bottleneck</h1>
+      <span class="date">November 2026 · Draft</span>
+
+      <p class="lede">AI is super capable, but it isn't reliable. Something has to close that gap.</p>
+
+      <p>So far, that something has been us. Code review, supervision, a person reading the output and deciding whether to trust it. This works while AI produces work at a pace people can keep up with.</p>
+
+      <h2>The math stopped working</h2>
+      <p>A model can produce in minutes what a reviewer needs hours to read carefully. As capability grows, the gap widens, and the human becomes the slowest step in the pipeline. Either we throttle the machine to our speed, or we skim and hope.</p>
+
+      <blockquote>Reliability that depends on a person reading every line is reliability that doesn't scale.</blockquote>
+
+      <h2>What replaces it</h2>
+      <p>Autonomous verification: checks that judge the quality of the work without a human in the loop. Where we can state exactly what "correct" means, formal verification. Where we can't, carefully chosen proxy metrics. People stay in charge of deciding what to verify. The machines do the checking.</p>
+
+      <p>More on the first of those in <a href="proofs-are-cheaper-now.html">Proofs Are Cheaper Now</a>.</p>
+
+      <a class="back" href="../writing.html">← All writing</a>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Rahul Jaikrishna</span>
+      <span><a href="https://github.com/Tensorflow-Ranger">GitHub</a> · <a href="mailto:rahul.jaikrishna@gmail.com">Email</a></span>
+    </div>
+  </footer>
+</body>
+</html>
